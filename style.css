@@ -34,7 +34,9 @@
     padding: 10px;
     border-radius: 20px;
     font-weight: 700;
-    width: 335px;
+    display: block;
+    margin: auto;
+    width: 200px;
 }
 .result {
     font-family: 'Times New Roman', Times, serif;
