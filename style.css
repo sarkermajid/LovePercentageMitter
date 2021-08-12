@@ -1,0 +1,53 @@
+.container {
+    margin-top: 100px;
+}
+.mainHeadLine{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: #2ecc71;
+    text-align: center;
+}
+.mainHeadLine > i {
+    color: red;
+}
+#loveMitter {
+    margin-top: 30px;
+    border: 2px solid #2ecc71;
+    padding: 50px;
+    border-radius: 20px;
+}
+#loveMitter > input{
+    border: 2px solid #2ecc71 ;
+    border-radius: 20px;
+    padding: 10px;
+}
+#loveMitter > i{
+    color: #2ecc71;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#loveMitter > button {
+    background-color: #2ecc71;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 335px;
+}
+.result {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #1abc9c;
+}
+.error {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: red;
+    display: none;
+}
